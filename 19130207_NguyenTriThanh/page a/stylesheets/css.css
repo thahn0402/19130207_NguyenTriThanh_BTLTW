@@ -1,0 +1,241 @@
+html, body {
+    margin: 0;
+    width: 100%;
+}
+
+#page {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#page .container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#page #section_normal_1 {
+    background: white;
+    height: 80px;
+}
+
+#page #section_normal_1 .alpha .logo {
+
+}
+
+#page #section_normal_1 .one-third {
+    width: 50%;
+    float: left;
+    padding-top: 20px;
+}
+
+#page #section_normal_1 .two-thirds {
+    width: 50%;
+    float: right;
+    text-align: right;
+    padding-top: 20px;
+}
+
+#page #section_normal_1 .two-thirds .htext_style {
+    float: right;
+    padding-top: 5px;
+    padding-right: 15px;
+    color: #dddddd;
+}
+
+#page #section_normal_1 .two-thirds .social_button {
+    float: right;
+}
+
+#page #section_normal_4_2 {
+    background: #333;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#page #section_normal_4_2 .container {
+    width: 100%;
+}
+
+#page #section_normal_4_2 .alpha {
+    width: 50%;
+    padding: 0;
+}
+
+#page #section_normal_4_2 .alpha .img_style {
+    float: left;
+    height: 200%;
+    padding: 50px 5px 50px 200px;
+}
+
+#page #section_normal_4_2 .omega {
+    width: 25%;
+    color: white;
+    float: left;
+    padding-top: 50px;
+}
+
+#page #section_normal_4_2 .omega .blue_text {
+    color: #487eb0;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+#page #section_normal_4_2 .omega .big_title {
+    color: white;
+    font-weight: bold;
+    font-size: 300%;
+}
+
+#page #section_normal_4_2 .omega .light_gray {
+    color: lightgray;
+}
+
+#page #section_normal_4_2 .omega .pix_button {
+    height: 55px;
+    background: #2dc0e8;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+#page #section_normal_6 {
+    background: #eeeeee;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 390px;
+}
+
+#page #section_normal_6 .container {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#page #section_normal_6 .container .L1_style {
+    color: #696969;
+    font-size: 200%;
+    font-weight: bold;
+    padding-top: 50px;
+    margin: 0;
+}
+
+#page #section_normal_6 .container .L2_style {
+    color: #aaaaaa;
+    margin: 0;
+}
+
+#page #section_normal_6 .container .alpha {
+    float: left;
+    width: 50%;
+}
+
+#page #section_normal_6 .container .alpha .box_1 {
+    padding: 60px 7px 50px 50px;
+}
+
+#page #section_normal_6 .container .alpha .box_1 .b_style {
+    float: left;
+    width: 25%;
+    background: #f5f5f5;
+}
+
+#page #section_normal_6 .container .alpha .box_1 .logo_style {
+    width: 70%;
+    border-radius: 50px;
+}
+
+#page #section_normal_6 .container .alpha .box_1 .txt_style {
+    float: left;
+    width: 75%;
+    background: #ffffff;
+    text-align: left;
+}
+
+#page #section_normal_6 .container .alpha .box_1 .txt_style .editContent {
+    color: #888888;
+}
+
+#page #section_normal_6 .container .alpha .box_1 .txt_style .editContent .pix_text {
+    color: #96c5fd;
+}
+
+#page #section_normal_6 .container .omega {
+    float: right;
+    width: 50%;
+}
+
+#page #section_normal_6 .container .omega .box_2 {
+    padding: 60px 7px 50px 50px;
+}
+
+#page #section_normal_6 .container .omega .box_2 .b_style {
+    float: left;
+    width: 25%;
+    background: #f5f5f5;
+}
+
+#page #section_normal_6 .container .omega .box_2 .logo_style {
+    width: 70%;
+    border-radius: 50px;
+}
+
+#page #section_normal_6 .container .omega .box_2 .txt_style {
+    float: left;
+    width: 75%;
+    background: #ffffff;
+    text-align: left;
+}
+
+#page #section_normal_6 .container .omega .box_2 .txt_style .editContent {
+    color: #888888;
+}
+
+#page #section_normal_6 .container .omega .box_2 .txt_style .editContent .pix_text {
+    color: #96c5fd;
+}
+
+#page #section_agency_5 .container {
+    background: #ffffff;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 65px;
+}
+
+#page #section_agency_5 .container .f1_style {
+    color: #c5dbca;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+#page #section_agency_5 .container .f2_style {
+    color: #aaaaaa;
+    margin: 20px 0 20px;
+}
+
+#page #section_agency_5 .container .second_link .get_2_btn .slow_fade {
+    color: #4d8c5a;
+    font-size: 250%;
+    border: 1px solid #4d8c5a;
+    text-decoration: none;
+}
+
+#page #section_agency_5 .container .rights_st {
+    margin-top: 15px;
+    color: #aaaaaa;
+}
+
+#page #section_agency_5 .container .editContent .pix_text .pixfort_st {
+    color: #5b9a68;
+}
+
+#page #section_agency_5 .container .center_btn {
+    margin-top: 20px;
+}

@@ -1,0 +1,89 @@
+html {
+    background: #aaaaaa;
+    width: 100%;
+}
+
+.container {
+    background: white;
+    margin: 15px;
+    padding: 25px 15px 25px;
+}
+
+.container .header {
+    text-align: center;
+}
+
+.container .alpha {
+    padding: 15px;
+    background: #aaaaaa;
+    height: 55px;
+    margin-top: 50px;
+    border: solid 1px gainsboro;
+    border-radius: 5px;
+}
+
+.container input[type=text] {
+    background: #aaaaaa;
+    border: none;
+    width: 99%;
+}
+
+.container .alpha1 {
+    margin: 50px 0 50px;
+    height: 100px;
+}
+
+.container .alpha1 .email {
+    float: left;
+    background: #aaaaaa;
+    padding: 15px;
+    width: 45%;
+    border: solid 1px gainsboro;
+    border-radius: 5px;
+    height: 60px;
+}
+
+.container .alpha1 .phone {
+    float: right;
+    background: #aaaaaa;
+    padding: 15px;
+    width: 45%;
+    border: solid 1px gainsboro;
+    border-radius: 5px;
+    height: 60px;
+}
+
+.container select {
+    width: 99%;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    background: #aaaaaa;
+}
+
+.container .message input[type=text] {
+    background: white;
+}
+
+.container .message {
+    margin-top: 30px;
+    padding: 15px;
+    height: 100px;
+    border: solid 1px gainsboro;
+    border-radius: 5px;
+}
+
+.container .submit {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container input[type=submit] {
+    background: #333333;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    width: 99%;
+    height: 40px;
+}

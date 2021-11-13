@@ -1,0 +1,343 @@
+html {
+    font-family: Arial;
+    background: #aaaaaa;
+}
+
+body {
+    background: #ffffff;
+    padding: 25px 75px 50px 75px;
+}
+
+.container {
+    margin: auto;
+}
+
+.container .label {
+    color: #7ed321;
+    font-weight: bolder;
+}
+
+.container .input-account {
+    height: 230px;
+}
+
+.mainLoginInput {
+    width: 100%;
+    height: 40px;
+    padding: 2px 10px;
+    font-size: 30px;
+    margin: 7px 0;
+    background: #f9f9f9;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+}
+
+.mainLoginInput::-webkit-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #aaaaaa;
+}
+
+.mainLoginInput::-moz-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #aaaaaa;
+}
+
+.mainLoginInput:-ms-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #aaaaaa;
+}
+
+.container .info {
+    width: 100%;
+    height: 100px;
+}
+
+.container .info .date-of-birth {
+    width: 50%;
+    float: left;
+}
+
+
+.birthday {
+    width: 60px;
+    height: 40px;
+    padding: 2px 10px;
+    font-size: 30px;
+    margin: 7px 0;
+    background: #f9f9f9;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+}
+
+.birthday1 {
+    width: 100px;
+    height: 40px;
+    padding: 2px 10px;
+    font-size: 30px;
+    margin: 7px 0;
+    background: #f9f9f9;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+}
+
+.birthday::-webkit-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #aaaaaa;
+}
+
+.birthday::-moz-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #aaaaaa;
+}
+
+.birthday:-ms-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #aaaaaa;
+}
+
+.birthday1::-webkit-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #aaaaaa;
+}
+
+.birthday1::-moz-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #aaaaaa;
+}
+
+.birthday1:-ms-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #aaaaaa;
+}
+
+.container .info .gender {
+    float: left;
+    width: 50%;
+}
+
+.sex {
+    width: 100%;
+    height: 40px;
+    padding: 2px 10px;
+    font-size: 30px;
+    margin: 7px 0;
+    background: #f9f9f9;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+}
+
+
+.sex::-webkit-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #aaaaaa;
+}
+
+.sex::-moz-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #aaaaaa;
+}
+
+.sex:-ms-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #aaaaaa;
+}
+
+.cl-2 {
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.container .payment {
+    width: 100%;
+    height: 240px;
+}
+
+.container .payment .choice {
+    margin-top: 10px;
+    width: 100%;
+    height: 60px;
+}
+
+.card {
+    width: 100%;
+    height: 40px;
+    padding: 2px 10px;
+    font-size: 30px;
+    margin: 7px 0;
+    background: #f9f9f9;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+}
+
+
+.card::-webkit-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #aaaaaa;
+}
+
+.card::-moz-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #aaaaaa;
+}
+
+.card:-ms-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #aaaaaa;
+}
+
+.cl-3 {
+    float: left;
+    width: 50%;
+}
+
+.card-1 {
+    width: 100%;
+    height: 40px;
+    padding: 2px 10px;
+    font-size: 30px;
+    margin: 7px 0;
+    background: #f9f9f9;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+}
+
+
+.card-1::-webkit-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #aaaaaa;
+}
+
+.card-1::-moz-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #aaaaaa;
+}
+
+.card-1:-ms-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #aaaaaa;
+}
+
+.container .choice .cl-3 .select {
+    width: 30%;
+    float: right;
+    margin-left: 5px;
+    padding-top: 5px;
+}
+select{
+    border: none;
+    background: #f9f9f9;
+    width: 100%;
+    height: 50px;
+}
+.container .term-conditions{
+    color: #c7c7c7;
+}

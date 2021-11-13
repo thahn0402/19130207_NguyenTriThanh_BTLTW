@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form3</title>
+    <link rel="stylesheet" href="stylesheets/css.css">
+    <script src="https://kit.fontawesome.com/45d81f7f61.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <form>
+
+        <div class="input-account">
+            <label class="label">Account</label><br/>
+            <input class="mainLoginInput" type="text" placeholder="&#61447; | Full Name"/> <br/>
+            <input class="mainLoginInput" type="text" placeholder="&#xF0e0; | Email Address"/> <br/>
+            <input class="mainLoginInput" type="text" placeholder="&#61475; | Password"/> <br/>
+        </div>
+        <div class="info">
+            <div class="date-of-birth">
+                <label class="label">Date of Birth</label><br/>
+                <div class="cl-2">
+                    <input class="birthday" type="text" placeholder="DD"/> <br/>
+                </div>
+                <div class="cl-2">
+                    <input class="birthday" type="text" placeholder="MM"/> <br/>
+                </div>
+                <div class="cl-2">
+                    <input class="birthday1" type="text" placeholder="YYYY"/> <br/>
+                </div>
+            </div>
+            <div class="gender">
+                <label class="label">Gender</label><br/>
+                <div class="cl-3">
+                    <input class="sex" type="text" placeholder="Male"/> <br/>
+                </div>
+                <div class="cl-3">
+                    <input class="sex" type="text" placeholder="Female"/> <br/>
+                </div>
+            </div>
+        </div>
+        <div class="payment">
+            <label class="label">Payment Details</label><br/>
+            <div class="choice">
+                <div class="cl-3">
+                    <input class="card-1" type="text" placeholder="&#xf09d; Credit Card"/> <br/>
+                </div>
+                <div class="cl-3">
+                    <input class="card-1" type="text" placeholder="&#xf09d; Paypal"/> <br/>
+                </div>
+            </div>
+            <input class="card" type="text" placeholder="&#xf09d; | Card Number"/> <br/>
+            <div class="choice">
+                <div class="cl-3">
+                    <input class="card-1" type="text" placeholder="&#61447; | Card CVC"/> <br/>
+                </div>
+                <div class="cl-3">
+                    <div class="select">
+                        <select id='gMonth1'>
+                            <option value=''>--Select Year-</option>
+                            <option selected value='1'>2010</option>
+                            <option value='2'>2011</option>
+                            <option value='3'>2012</option>
+                            <option value='4'>2013</option>
+                            <option value='5'>2014</option>
+                            <option value='6'>2015</option>
+                            <option value='7'>2016</option>
+                            <option value='8'>2017</option>
+                            <option value='9'>2018</option>
+                            <option value='10'>2019</option>
+                            <option value='11'>2020</option>
+                            <option value='12'>2021</option>
+                        </select>
+                    </div>
+                    <div class="select">
+                        <select id='gMonth2' onchange="show_month()">
+                            <option value=''>--Select Month--</option>
+                            <option selected value='1'>Janaury</option>
+                            <option value='2'>February</option>
+                            <option value='3'>March</option>
+                            <option value='4'>April</option>
+                            <option value='5'>May</option>
+                            <option value='6'>June</option>
+                            <option value='7'>July</option>
+                            <option value='8'>August</option>
+                            <option value='9'>September</option>
+                            <option value='10'>October</option>
+                            <option value='11'>November</option>
+                            <option value='12'>December</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="term-conditions">
+            <label class="label">Terms and Conditions</label><br/>
+            <input type="checkbox" id="accept" name="accept">
+            <label for="accept"> I accept the terms and conditions for signing up to this service, and hereby
+                confirm I have read the privacy policy.</label>
+        </div>
+    </form>
+</div>
+</body>
+</html>

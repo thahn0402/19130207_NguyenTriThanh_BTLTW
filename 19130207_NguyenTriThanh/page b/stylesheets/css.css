@@ -1,0 +1,291 @@
+html, body {
+    width: 100%;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+#page #section_text_2 {
+    background: #f3f3f3;
+    width: 100%;
+    height: 100px;
+}
+
+#page #section_text_2 .container {
+    margin: auto;
+}
+
+#page #section_text_2 .container .alpha {
+    float: left;
+    padding: 25px 0px 40px 360px;
+}
+
+#page #section_text_2 .container .omega {
+    float: right;
+    margin: 0;
+    padding: 30px 360px 40px 0;
+}
+
+#page #section_text_2 .container .omega .pix_button {
+    color: white;
+    border: 15px solid #f77825;
+    border-radius: 5px;
+    background: #f77825;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+#page #section_header_1 {
+    background: #ffffff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#page #section_header_1 {
+    color: #ffffff;
+    width: 100%;
+    height: 100px;
+}
+
+#page #section_header_1 .right_socials {
+    float: right;
+    width: 30%;
+    min-width: 150px;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+#page #section_header_1 .right_socials ul li {
+    list-style-type: none;
+    float: left;
+    clear: right;
+    padding-right: 5px;
+}
+
+#page #section_header_1 .navbar-collapse {
+    float: left;
+    width: 70%;
+    padding-top: 25px;
+}
+
+#page #section_header_1 .navbar-collapse ul li {
+    list-style-type: none;
+    float: left;
+    clear: right;
+    padding-right: 70px;
+}
+
+#page #section_header_1 .navbar-collapse ul li a {
+    color: lightgray;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+#page #section_header_1 .navbar-collapse ul li:hover a {
+    font-size: 150%;
+}
+
+#page #section_slider {
+    background: #f3f3f3;
+    width: 100%;
+    height: 665px;
+}
+
+#page #section_slider .active {
+    padding-top: 75px;
+    padding-left: 135px;
+}
+
+#page #section_gym_4 {
+    width: 100%;
+    height: 500px;
+    background: #ffffff;
+}
+
+#page #section_gym_4 .container {
+    text-align: center;
+    margin-left: 180px;
+    padding-top: 100px;
+}
+
+#page #section_gym_4 .alpha {
+    float: left;
+    padding-right: 250px;
+}
+
+#page #section_gym_4 .beta {
+    float: left;
+    padding-right: 250px;
+}
+
+#page #section_gym_4 .omega {
+    float: left;
+}
+
+#page #section_gym_4 .logo_style {
+    border-radius: 100px;
+}
+
+#page #section_gym_4 .text_gym_style .gym_st {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+#page #section_gym_4 .text_gym_style .gym_text {
+    color: lightgray;
+}
+
+#page #section_gym_4 .pix_text {
+    color: white;
+    border: 10px solid #f77825;
+    border-radius: 5px;
+    background: #f77825;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 110%;
+    margin-top: 30px;
+}
+
+#page #section_intro_title {
+    width: 100%;
+    height: 500px;
+    background: #f3f3f3;
+}
+
+#page #section_intro_title .container {
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 175px;
+}
+
+#page #section_intro_title .one-third {
+    width: 300px;
+    height: 450px;
+    background: #ffffff;
+    float: left;
+    border: 1px solid lightgray;
+    margin-left: 75px;
+}
+
+#page #section_intro_title .flat_pricing {
+    text-align: center;
+}
+
+
+#page #section_intro_title .flat_pricing .blue_text {
+    color: #2dc0e8;
+    font-weight: bold;
+    font-size: 220%;
+    margin: 0;
+    padding-top: 30px;
+}
+
+#page #section_intro_title .flat_pricing .orange {
+    color: #f77825;
+    font-weight: bold;
+    font-size: 220%;
+    margin: 0;
+    padding-top: 30px;
+}
+
+#page #section_intro_title .flat_pricing .light_gray {
+    color: #999bb0;
+    font-size: 110%;
+}
+
+#page #section_intro_title .flat_pricing ul li {
+    list-style-type: none;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+#page #section_intro_title .flat_pricing .flat_pricing_list {
+    padding-left: 0;
+    color: #aaaaaa;
+}
+
+#page #section_intro_title .flat_pricing .orange_bg {
+    border: 12px solid #f77825;
+    background: #f77825;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#page #section_intro_title .flat_pricing .blue_bg {
+    border: 12px solid #2dc0e8;
+    background: #2dc0e8;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#page #section_party_3{
+    width: 100%;
+    height: 730px;
+    background: #191919;
+    padding-top: 85px;
+}
+#page #section_party_3 .container{
+    background: #151515;
+    width: 550px;
+    height: 560px;
+    text-align: center;
+    margin: auto;
+    padding-top: 65px;
+}
+#page #section_party_3 .container .headtext_style{
+    color: white;
+    font-weight: bold;
+    font-size: 170%;
+}
+#page #section_party_3 .container .subtext_style{
+    color: lightgray;
+    padding: 70px 0 52px;
+}
+#page #section_party_3 .container .contact_st #contact_form .pix_text{
+    margin-top: 25px ;
+    padding: 25px;
+    width: 85%;
+    box-sizing: content-box;
+    border-radius: 5px;
+}
+#page #section_party_3 .container .contact_st #contact_form #submit_btn_15{
+    background: #216ee2;
+    color: white;
+    font-weight: bold;
+    font-size: 130%;
+}
+#page #section_party_4{
+    width: 100%;
+    height: 70px;
+    background: #151515;
+}
+#page #section_party_4 .alpha{
+    float: left;
+    padding: 25px;
+}
+#page #section_party_4 .alpha .rights_st{
+    color: #a0a9a9;
+}
+#page #section_party_4 .alpha .rights_st .pixfort_st{
+    color: #216ee2;
+}
+#page #section_party_4 .omega{
+    float:right;
+    width: 35%;
+}
+#page #section_party_4 .omega .soc_icons ul li{
+    list-style-type: none;
+    float: left;
+    clear: right;
+    padding-right: 5px;
+}
+#page #section_party_4 .omega .likes_st{
+    color: #a0a9a9;
+    padding-top: 5px;
+}

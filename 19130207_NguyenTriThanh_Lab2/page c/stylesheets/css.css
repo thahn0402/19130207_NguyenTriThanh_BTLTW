@@ -1,0 +1,232 @@
+html, body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background: #aaaaaa;
+    width: 100%;
+}
+
+#page {
+    width: 100%;
+}
+
+#page #section_header_2_dark {
+    width: 100%;
+    height: 75px;
+    background: #333333;
+}
+
+#page #section_header_2_dark .navbar-header {
+    float: left;
+    padding-top: 25px;
+    padding-left: 85px;
+}
+
+#page #section_header_2_dark #navbar-collapse-02 {
+    float: right;
+    padding-top: 12px;
+    margin-right: 85px;
+}
+
+#page #section_header_2_dark #navbar-collapse-02 ul li {
+    list-style-type: none;
+    float: left;
+    padding-right: 30px;
+}
+
+#page #section_header_2_dark #navbar-collapse-02 ul li:hover a {
+    color: #f1c40f;
+}
+
+#page #section_header_2_dark #navbar-collapse-02 ul li a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+#page #section_header_2_dark #navbar-collapse-02 .text_span {
+    color: #eccc33;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+#page #section_pix_4 {
+    width: 100%;
+    height: 880px;
+    text-align: center;
+}
+
+#page #section_pix_4 .section_video {
+    position: absolute;
+    height: 880px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#page #section_pix_4 .section_video > video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#page #section_pix_4 .section_wrapper {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    padding-top: 280px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+}
+
+#page #section_pix_4 .section_wrapper .container {
+    color: #ffffff;
+}
+
+#page #section_pix_4 .section_wrapper .container .title_style {
+    font-size: 300%;
+    font-weight: bold;
+}
+
+#page #section_pix_4 .section_wrapper .container .subtitle_style {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 130%;
+}
+
+#page #section_pix_4 .section_wrapper .container #contact_form {
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+    border: 5px solid #150e0e;
+    border-radius: 5px;
+    background: #150e0e;
+}
+
+#page #section_pix_4 .section_wrapper .container #contact_form #email {
+    height: 50px;
+    width: 300px;
+    padding-right: 23px;
+    font-size: 120%;
+}
+
+#page #section_pix_4 .section_wrapper .container #contact_form #subscribe_btn_1 {
+    height: 55px;
+    width: 150px;
+    color: white;
+    background: #f1c232;
+    font-weight: bold;
+}
+
+#page #section_pix_4 .section_wrapper .container .note_st {
+    padding-top: 35px;
+}
+
+#page #section_university_5 {
+    width: 100%;
+    height: 580px;
+    margin: auto;
+    background: #ffffff;
+}
+
+#page #section_university_5 .alpha {
+    float: left;
+    width: 580px;
+    height: 400px;
+    padding-top: 35px;
+    padding-left: 250px;
+}
+
+#page #section_university_5 .alpha .psingle_item {
+    float: left;
+    padding-top: 25px;
+}
+
+.icon_st {
+    float: left;
+    padding-right: 25px;
+}
+
+.text_st {
+    float: left;
+}
+
+.title_st {
+    color: #333333;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.subject_st {
+    color: #b6b6b6;
+    font-size: 90%;
+}
+
+#page #section_university_5 .omega {
+    float: right;
+    background: #ebeaea;
+    margin-top: 25px;
+    margin-right: 350px;
+    width: 290px;
+    height: 450px;
+    padding: 15px;
+}
+
+#page #section_university_5 .omega .title-style {
+    padding-top: 40px;
+    font-size: 170%;
+}
+
+#page #section_university_5 .omega .text-style {
+    font-size: 70%;
+    color: #b8b8b8;
+}
+
+#page #section_university_5 .omega #contact_form .pix_text {
+    margin-bottom: 25px;
+    height: 40px;
+    width: 280px;
+    border-color: lightgray;
+}
+
+#page #section_university_5 .omega #contact_form #submit_btn_6 {
+    color: white;
+    background: #7cc576;
+    font-weight: bold;
+}
+
+#page #section_ecourse_7 {
+    width: 100%;
+    height: 50px;
+    background: #f6f6f6;
+}
+
+#page #section_ecourse_7 .alpha {
+    float: left;
+    padding-top: 20px;
+    padding-left: 85px;
+}
+
+#page #section_ecourse_7 .alpha .pix_text {
+    color: #bebebe;
+}
+
+#page #section_ecourse_7 .alpha .pixfort_st {
+    color: #674397;
+}
+
+#page #section_ecourse_7 .omega {
+    float: right;
+    margin-right: 85px;
+    width: 50%;
+}
+
+#page #section_ecourse_7 .omega .pix_text {
+    color: #bebebe;
+}
+
+#page #section_ecourse_7 .omega ul li {
+    list-style-type: none;
+    float: right;
+    padding-right: 30px;
+}
